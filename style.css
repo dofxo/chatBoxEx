@@ -30,7 +30,7 @@ body {
 
 #navBarBottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -62,7 +62,7 @@ body {
     background-color: #899b87;
     border: none;
     border-radius: 1px 10px;
-    padding: 2px 20px;
+    padding: 5px 20px;
 
 }
 
@@ -81,5 +81,12 @@ body {
     border-radius: 10px;
     border: 1px solid #243b20;
     margin-bottom: 5px;
+
+}
+
+@media screen and (max-width:400px) {
+    #navBarBottom {
+        flex-direction: column;
+    }
 
 }

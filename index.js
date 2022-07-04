@@ -8,7 +8,7 @@ sendEl.addEventListener('click', function () {
     sendMessage()
 })
 
-
+// function for sending an inputs's value in another div
 function sendMessage() {
     if (chatBoxEl.value != "") {
         chatPlace.innerHTML += ` <div id="newChat">${chatBoxEl.value}</div>`
