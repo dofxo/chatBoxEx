@@ -1,8 +1,14 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nova Mono', monospace;
 }
+
 
 #chatPage {
     position: relative;
